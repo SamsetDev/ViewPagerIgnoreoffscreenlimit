@@ -16,7 +16,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 
 class TabpageAdapter(fm: FragmentManager?, fragments: List<Fragment>, name: List<String>) : FragmentPagerAdapter(fm) {
     private var title: List<String>
-    private lateinit var fragmentlist: List<Fragment>
+    private var fragmentlist: List<Fragment>
     private var bundle: Bundle
 
 
